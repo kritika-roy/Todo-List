@@ -28,7 +28,7 @@ function CreateTodoNode(todo, index) {
         saveTodos();
     })
 
-    //text of the todo
+    //text of the to-do
     const textSpan = document.createElement("span");
     textSpan.textContent = todo.text;
     textSpan.style.margin = '0 8px';
